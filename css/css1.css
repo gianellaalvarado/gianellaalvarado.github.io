@@ -1,0 +1,35 @@
+body {
+  background-color: lightblue;
+  font-family: Times New Roman, sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  color: darkblue;
+  text-align: center;
+}
+
+a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+p {
+  margin: 10px 0;
+  text-indent: 50px;
+}
+
+.miAnimacion {
+  animation: miAnimacion 2s ease-in-out infinite;
+}
+
+@keyframes miAnimacion {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

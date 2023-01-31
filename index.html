@@ -2,11 +2,16 @@
 <html>
 <head>
   <title>Mi Página Web Personal</title>
+  <link rel="stylesheet" type="text/css" href="css/css1.css">
 </head>
 <body>
   <header>
     <h1>Gianella Alvarado Rivera</h1>
   </header>
+
+  <div class="miAnimacion">
+    <img src="images/image1.jpg" alt="descripción de la imagen" width="500" height="500">
+  </div>
   <nav>
     <ul>
       <li><a href="#about">Acerca de mí</a></li>
@@ -17,7 +22,7 @@
   <main>
     <section id="about">
       <h2>Acerca de mí</h2>
-      <p>Soy un desarrollador web y apasionado por la tecnología.</p>
+      <p>Soy estudiante de negocios internacionales que le gusta comer peces.</p>
     </section>
     <section id="portfolio">
       <h2>Portafolio</h2>
@@ -40,8 +45,18 @@
       </form>
     </section>
   </main>
+
+  <button id="miBoton">Haz clic aquí</button>
+
   <footer>
     <p>&copy; 2022 Mi Nombre</p>
   </footer>
 </body>
+
+<script>
+  document.getElementById("miBoton").addEventListener("click", function() {
+    alert("Hola, si llegaste hasta aquí, te mereces una estrella");
+  });
+</script>
+
 </html>
